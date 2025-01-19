@@ -167,4 +167,30 @@ body {
   div.main__body {
     @apply flex flex-col grow;
   }
+
+  div.auth {
+    @apply w-full h-full flex justify-center items-center;
+    background-image: url("/images/auth-background.webp")
+  }
+
+  div.auth__form {
+    /* @apply bg-gradient-to-b from-[rgba(236,72,153,0.25)] to-[rgba(219,39,119,0.25)] shadow-2xl rounded-lg p-4; */
+    @apply bg-card rounded-lg p-4;
+  }
+
+  div.auth__form form {
+    @apply flex flex-col gap-4;
+  }
+
+  h1.auth__title {
+    @apply text-3xl text-white font-bold mb-4;
+  }
+
+  div.auth__field {
+    @apply flex flex-col gap-2;
+  }
+
+  button.auth__button {
+    @apply rounded-lg p-2 w-full;
+  }
 }
